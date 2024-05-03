@@ -12,26 +12,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/style.css" </head>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
 
 <body>
     <!-- <h1>Hello, wold!</h1> -->
 
 
     <div class="bg-white">
-        <nav id="navabarTab" class="navbar navbar-expand-lg px-md-5 px-2 p-0 ">
+        <nav id="navabarTab" class="navbar navbar-expand-lg px-md-5 px-2 p-2">
             <div class="container-fluid px-0" style=" border-bottom: 0.5px solid rgba(255, 255, 255, 0.9);">
                 <a class="navbar-brand d-md-inline d-none d-flex align-items-center" href="index.html">
-                    <div class="d-flex align-items-center gap-1">
-                        <img src="./img/tripdayIcon.svg">
-                        <p class="mb-0 fw-700 fs-40 text-lightBlack">Trip<span class="fw-300">day</span></p>
+                    <div class="d-flex align-items-center">
+                        <img src="./img/tripDayImg.svg" class="w-50">
+                        <!-- <p class="mb-0 fw-700 fs-40 text-lightBlack">Trip<span class="fw-300">day</span></p> -->
                     </div>
                 </a>
-                <!-- <a class="navbar-brand d-md-none d-inline" href="index.html"><img src="./img/tripdayIcon.svg"></a> -->
+                <a class="navbar-brand d-md-none d-inline w-50" href="index.html">
+                    <img src="./img/tripDayImg.svg" class="">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><img src="img/indexToggle.svg"></span>
+                    <span class="navbar-toggler-icon">
+                        <!-- <img src="img/indexToggle.svg"> -->
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  px-3 px-md-0 mb-lg-0">
@@ -69,7 +74,7 @@
             </div>
         </nav>
 
-        <hr class="">
+        <hr class="m-0">
 
         <!-- <div class="container-fluid"> -->
         <div class="row px-md-5 px-2 align-items-center mx-0">
@@ -85,7 +90,7 @@
                     <button class="text-black border rounded fw-500 fs-16 p-2">Contact Us</button>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 px-2">
+            <div class="col-12 col-md-6 col-lg-6 px-2 pt-md-5 pt-4">
                 <img src="/img/image.svg" class="w-100">
 
                 <!-- <div class="" style="position: relative;">
@@ -111,8 +116,8 @@
         <div class="row px-md-5 px-2 mx-0 mt-4">
             <div class="col-md-8 col-lg-8 col-12">
                 <div class="row">
-                    <div class="col-4 mb-5">
-                        <div class="p-4 border br-20 h-330">
+                    <div class="col-6 col-md-4 col-lg-4 mb-5">
+                        <div class="p-4 border br-20 h-100 overflow-auto">
                             <img src="/img/badge1.svg">
                             <p class="fw-500 fs-20 text-black mt-2">Route optimization</p>
                             <p class="mt-2 fw-500 fs-16 text-black">Drivers should be able to view the best route to
@@ -120,8 +125,8 @@
                                 account the traffic conditions, road closures, and tolls.</p>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="p-4 border br-20 h-330">
+                    <div class="col-6 col-md-4 col-lg-4 mb-5">
+                        <div class="p-4 border br-20 h-100 overflow-auto">
                             <img src="/img/badge2.svg">
                             <p class="fw-500 fs-20 text-black mt-2">Cancellation window</p>
                             <p class="mt-2 fw-500 fs-16 text-black">Drivers should be able to cancel a ride request
@@ -129,16 +134,16 @@
                                 inconvenience.</p>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="p-4 border br-20 h-330">
+                    <div class="col-6 col-md-4 col-lg-4 mb-5">
+                        <div class="p-4 border br-20 h-100 overflow-auto">
                             <img src="/img/badge3.svg">
                             <p class="fw-500 fs-20 text-black mt-2">Passenger Location</p>
                             <p class="mt-2 fw-500 fs-16 text-black">Drivers should be able to know the passenger’s
                                 precise location on the map when a call comes, which makes the app more accessible.</p>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="p-4 border br-20 h-330">
+                    <div class="col-6 col-md-4 col-lg-4 mb-5">
+                        <div class="p-4 border br-20 h-100 overflow-auto">
                             <img src="/img/badge4.svg">
                             <p class="fw-500 fs-20 text-black mt-2">Possibility to contact passengers</p>
                             <p class="mt-2 fw-500 fs-16 text-black">Drivers should be able to call or message the
@@ -146,16 +151,16 @@
                                 issues</p>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="p-4 border br-20 h-330">
+                    <div class="col-6 col-md-4 col-lg-4 mb-5">
+                        <div class="p-4 border br-20 h-100 overflow-auto">
                             <img src="/img/badge5.svg">
                             <p class="fw-500 fs-20 text-black mt-2">Automated drivers billing</p>
                             <p class="mt-2 fw-500 fs-16 text-black">Drivers should be able to track their earnings, view
                                 their trip history, and receive payments automatically through the app.</p>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="p-4 border br-20 h-330">
+                    <div class="col-6 col-md-4 col-lg-4 mb-5">
+                        <div class="p-4 border br-20 h-100 overflow-auto">
                             <img src="/img/badge1.svg">
                             <p class="fw-500 fs-20 text-black mt-2">Profile and Trip History</p>
                             <p class="mt-2 fw-500 fs-16 text-black">Drivers should be able to track their earnings, view
@@ -165,7 +170,8 @@
                 </div>
 
             </div>
-            <div class="col-md-4 col-lg-4 col-12 d-flex justify-content-end">
+            <div
+                class="col-md-4 col-lg-4 col-12 d-flex justify-content-center justify-content-md-end justify-content-lg-end">
                 <img src="/img/fullDetailImg.svg">
             </div>
         </div>
@@ -181,24 +187,24 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-6 mb-5">
-                            <div class="p-4 border br-20 h-330">
+                        <div class="col-6 mt-5">
+                            <div class="p-4 border br-20 h-100 overflow-auto">
                                 <img src="/img/badge1.svg">
                                 <p class="fw-500 fs-20 text-black mt-2">Adding Trips</p>
                                 <p class="mt-2 fw-500 fs-16 text-black">Admins can manually add trips, specifying
                                     details like pickup and drop-off locations, time, and assigned driver.</p>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="p-4 border br-20 h-330">
+                        <div class="col-6 mt-5">
+                            <div class="p-4 border br-20 h-100 overflow-auto">
                                 <img src="/img/badge2.svg">
                                 <p class="fw-500 fs-20 text-black mt-2">Cancellation window</p>
                                 <p class="mt-2 fw-500 fs-16 text-black">Admins have the authority to cancel trips due to
                                     various reasons, such as driver unavailability or safety concerns.</p>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="p-4 border br-20 h-330">
+                        <div class="col-6 mt-5">
+                            <div class="p-4 border br-20 h-100 overflow-auto">
                                 <img src="/img/badge3.svg">
                                 <p class="fw-500 fs-20 text-black mt-2">Passenger Location</p>
                                 <p class="mt-2 fw-500 fs-16 text-black">The admin panel provides real-time tracking of
@@ -207,8 +213,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="p-4 border br-20 h-330">
+                        <div class="col-6 mt-5">
+                            <div class="p-4 border br-20 h-100 overflow-auto">
                                 <img src="/img/badge4.svg">
                                 <p class="fw-500 fs-20 text-black mt-2">Possibility to contact passengers</p>
                                 <p class="mt-2 fw-500 fs-16 text-black">The admin panel maintains a comprehensive
@@ -234,7 +240,8 @@
                     <button class="text-white bg-black rounded border-0 fw-500 fs-16 px-4 mt-3 p-2">Request a
                         Demo</button>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12 d-flex justify-content-end align-items-center">
+                <div
+                    class="col-md-4 col-lg-4 col-12 d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-center">
                     <img src="/img/carIcon.svg">
                 </div>
             </div>
@@ -243,50 +250,51 @@
 
         <!-- Footer -->
 
-        <div class="p-5">
-            <div class="row justify-content-between pb-4">
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="d-flex align-items-center gap-1">
-                        <img src="./img/tripdayIcon.svg">
-                        <p class="mb-0 fw-700 fs-40 text-lightBlack">Trip<span class="fw-300">day</span></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4">
-                    <!-- <div class="d-flex align-items-center gap-1"> -->
-                        <p class="mb-0 fw-500 fs-16 text-lightBlack">Register Cab Agency</p>
-                        <p class="mb-0 fw-500 fs-16 text-lightBlack">Register as a driver</p>
-                    <!-- </div> -->
-                </div>
-                <div class="col-md-4 col-lg-4 col-12 d-flex justify-content-end">
-                    <button class="text-white bg-black rounded border-0 fw-500 fs-16 px-4 mt-3 p-2">Request a
-                        Demo</button>
+        <!-- <div class="p-5"> -->
+        <div class="row justify-content-between px-md-5 px-2 py-4 py-md-4 mx-0 align-items-center">
+            <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center">
+                <div class="">
+                    <img src="./img/tripdayImg.svg" class="w-50">
                 </div>
             </div>
-
-            <hr>
-
-            <div class="row justify-content-between pt-4">
-                <div class="col-md-4 col-lg-4 col-12">
-                    <p class="mb-0 fw-400 fs-14 text-black">Copyright Tripday .© 2024.</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4">
-                    <!-- <div class="d-flex align-items-center gap-1"> -->
-                        <p class="mb-0 fw-500 fs-16 text-lightBlack">Privacy Policy</p>
-                        <p class="mb-0 fw-500 fs-16 text-lightBlack">Terms and Conditions</p>
-                        <p class="mb-0 fw-500 fs-16 text-lightBlack">Fulfilment Policy</p>
-                    <!-- </div> -->
-                </div>
-                <div class="col-md-4 col-lg-4 col-12 d-flex justify-content-end gap-3">
-                    <!-- <div class=""> -->
-                        <img src="./img/facebook.svg">
-                        <img src="./img/twitter.svg">
-                        <img src="./img/linkedin.svg">
-                        <img src="./img/instagram.svg">
-                    <!-- </div> -->
-                </div>
+            <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4">
+                <!-- <div class="d-flex align-items-center gap-1"> -->
+                <p class="mb-0 fw-500 fs-16 text-lightBlack">Register Cab Agency</p>
+                <p class="mb-0 fw-500 fs-16 text-lightBlack">Register as a driver</p>
+                <!-- </div> -->
             </div>
-
+            <div
+                class="col-md-4 col-lg-4 col-12 d-flex justify-content-start justify-content-md-end justify-content-lg-end mt-md-0 mt-3">
+                <button class="text-white bg-black rounded border-0 fw-500 fs-16 px-4 p-2">Request a
+                    Demo</button>
+            </div>
         </div>
+
+        <hr class="m-0">
+
+        <div class="row justify-content-between px-md-5 px-2 mx-0 py-md-4 py-4">
+            <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center">
+                <p class="mb-0 fw-400 fs-14 text-black">Copyright Tripday .© 2024.</p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4 mt-md-0 mt-3">
+                <!-- <div class="d-flex align-items-center gap-1"> -->
+                <a href="privacyPolicy.html" class="text-decoration-none"> <p class="mb-0 fw-500 fs-16 text-lightBlack">Privacy Policy</p></a>
+                <p class="mb-0 fw-500 fs-16 text-lightBlack">Terms and Conditions</p>
+                <p class="mb-0 fw-500 fs-16 text-lightBlack">Fulfilment Policy</p>
+                <!-- </div> -->
+            </div>
+            <div
+                class="col-md-4 col-lg-4 col-12 d-flex justify-content-start justify-content-md-end justify-content-lg-end gap-3 mt-md-0 mt-3">
+                <!-- <div class=""> -->
+                <img src="./img/facebook.svg">
+                <img src="./img/twitter.svg">
+                <img src="./img/linkedin.svg">
+                <img src="./img/instagram.svg">
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <!-- </div> -->
 
     </div>
 

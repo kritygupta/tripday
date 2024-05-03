@@ -126,6 +126,11 @@
 .w-100{
   width: 100% !important;
 }
+
+.w-50{
+  width: 50% !important;
+}
+
 .hr{
   border: 1px solid #BFBFBF !important;
 }
@@ -177,4 +182,8 @@ div.dt-container div.dt-paging ul.pagination {
 .nav-pills .nav-link {
   border: 1px solid #D2D2D2;
   border-radius: 100px !important;
+}
+
+.text-align{
+  text-align: justify !important;
 }
