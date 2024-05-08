@@ -40,7 +40,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  px-3 px-md-0 mb-lg-0">
-                        <a class="pb-1 nav-link" href="commingsoon.html">
+                        <!-- <a class="pb-1 nav-link" href="commingsoon.html">
                             <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
                                 <span class="text-black fs-16 fw-500 text-lightBlack"> Register cab Agency</span>
                                 <img class="d-block d-md-none" src="img/white-arrow-right.svg" alt="">
@@ -52,23 +52,23 @@
                                 <span class="text-black fs-16 fw-500 text-lightBlack"> Register as a Driver</span>
                                 <img class="d-block d-md-none" src="img/white-arrow-right.svg" alt="">
                             </li>
-                        </a>
+                        </a> -->
 
-                        <a class="pb-1 nav-link" href="commingsoon.html">
-                            <li
-                                class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center p-2 rounded border px-4">
-                                <span class="text-black fs-16 fw-500 text-lightBlack">Contact Us</span>
-                                <img class="d-block d-md-none" src="img/white-arrow-right.svg" alt="">
-                            </li>
-                        </a>
+                        <!-- <a class="pb-1 nav-link" href="commingsoon.html"> -->
+                        <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center p-2 rounded border px-4 mb-md-0 mb-3"
+                            data-bs-toggle="modal" data-bs-target="#contactUsModal" role="button">
+                            <span class="text-black fs-16 fw-500 text-lightBlack">Contact Us</span>
+                            <img class="d-block d-md-none" src="img/white-arrow-right.svg" alt="">
+                        </li>
+                        <!-- </a> -->
 
-                        <a class="pb-1 nav-link" href="commingsoon.html">
-                            <li
-                                class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center bg-black text-white p-2 rounded px-4">
-                                <span class="text-black fs-16 fw-500 text-white">Register a Demo</span>
-                                <img class="d-block d-md-none" src="img/white-arrow-right.svg" alt="">
-                            </li>
-                        </a>
+                        <!-- <a class="pb-1 nav-link" href="commingsoon.html"> -->
+                        <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center bg-black text-white p-2 rounded px-4"
+                            data-bs-toggle="modal" data-bs-target="#scheduleModal" role="button">
+                            <span class="text-black fs-16 fw-500 text-white">Register a Demo</span>
+                            <img class="d-block d-md-none" src="img/white-arrow-right.svg" alt="">
+                        </li>
+                        <!-- </a> -->
                     </ul>
                 </div>
             </div>
@@ -86,8 +86,8 @@
                     bookings, revolutionizing the cab industry.</p>
 
                 <div class="d-flex gap-3 mt-4">
-                    <button class="text-white bg-black rounded border-0 fw-500 fs-16 p-2">Request a Demo</button>
-                    <button class="text-black border rounded fw-500 fs-16 p-2">Contact Us</button>
+                    <button class="text-white bg-black rounded border-0 fw-500 fs-16 p-2" data-bs-toggle="modal" data-bs-target="#scheduleModal">Request a Demo</button>
+                    <button class="text-black border rounded fw-500 fs-16 p-2" data-bs-toggle="modal" data-bs-target="#contactUsModal">Contact Us</button>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-6 px-2 pt-md-5 pt-4">
@@ -257,12 +257,10 @@
                     <img src="./img/tripDayImg.svg" class="w-50">
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4">
-                <!-- <div class="d-flex align-items-center gap-1"> -->
+            <!-- <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4">
                 <p class="mb-0 fw-500 fs-16 text-lightBlack">Register Cab Agency</p>
                 <p class="mb-0 fw-500 fs-16 text-lightBlack">Register as a driver</p>
-                <!-- </div> -->
-            </div>
+            </div> -->
             <div
                 class="col-md-4 col-lg-4 col-12 d-flex justify-content-start justify-content-md-end justify-content-lg-end mt-md-0 mt-3">
                 <button class="text-white bg-black rounded border-0 fw-500 fs-16 px-4 p-2">Request a
@@ -278,7 +276,9 @@
             </div>
             <div class="col-md-4 col-lg-4 col-12 d-flex align-items-center gap-4 mt-md-0 mt-3">
                 <!-- <div class="d-flex align-items-center gap-1"> -->
-                <a href="privacyPolicy.html" class="text-decoration-none"> <p class="mb-0 fw-500 fs-16 text-lightBlack">Privacy Policy</p></a>
+                <a href="privacyPolicy.html" class="text-decoration-none">
+                    <p class="mb-0 fw-500 fs-16 text-lightBlack">Privacy Policy</p>
+                </a>
                 <p class="mb-0 fw-500 fs-16 text-lightBlack">Terms and Conditions</p>
                 <p class="mb-0 fw-500 fs-16 text-lightBlack">Fulfilment Policy</p>
                 <!-- </div> -->
@@ -297,6 +297,114 @@
         <!-- </div> -->
 
     </div>
+
+    <!-- Contact Us -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content px-3">
+                <div class="modal-header border-0">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="" id="contactUs">
+                        <p class="text-black fw-600 fs-24 text-center mb-0">Contact Us</p>
+                        <p class="fw-400 fs-16 text-lightBlack text-center">Fill out form to have a
+                            talk with us</p>
+                        <!-- <label class="text-sm" for="">Agency Name</label> -->
+                        <div class="border p-2 my-2 rounded bg-searchBoxLightBlue"
+                            onclick="removeBorder('.errorAgency')">
+                            <input type="text" id="agencyName" placeholder="Name"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <!-- <label class="text-sm" for="">Email Address</label> -->
+                        <div class="gap-2 items-center border p-2 my-2 errorEmailAddress bg-searchBoxLightBlue rounded"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <input type="text" id="emailAddress" placeholder="Email"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <!-- <label class="text-sm" for="">Contact No</label> -->
+                        <div class="gap-2 items-center border p-2 my-2 errorEmailAddress bg-searchBoxLightBlue rounded"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <input type="text" id="emailAddress" placeholder="Contact No"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <!-- <label class="text-sm" for="">Message</label> -->
+                        <div class="gap-2 items-center border rounded p-2 my-2 bg-searchBoxLightBlue errorEmailAddress"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <textarea type="text" id="emailAddress" rows="3" placeholder="Message"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue"></textarea>
+                        </div>
+
+                        <button type="button" class="p-2 w-100 my-2 border-0 text-white bg-black rounded"
+                            onclick="contact()">Contact Us</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scheduled -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content px-3">
+                <div class="modal-header border-0">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="" id="contactUs">
+                        <p class="text-black fw-600 fs-24 text-center mb-0">Schedule a free demo</p>
+                        <p class="fw-400 fs-16 text-lightBlack text-center">Fill the details and
+                            select the date and time which you prefer</p>
+                        <!-- <label class="text-sm" for="">Agency Name</label> -->
+                        <div class="border p-2 my-2 rounded bg-searchBoxLightBlue"
+                            onclick="removeBorder('.errorAgency')">
+                            <input type="text" id="agencyName" placeholder="Name"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <!-- <label class="text-sm" for="">Email Address</label> -->
+                        <div class="gap-2 items-center border p-2 my-2 errorEmailAddress bg-searchBoxLightBlue rounded"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <input type="text" id="emailAddress" placeholder="Email"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <!-- <label class="text-sm" for="">Contact No</label> -->
+                        <div class="gap-2 items-center border p-2 my-2 errorEmailAddress bg-searchBoxLightBlue rounded"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <input type="text" id="emailAddress" placeholder="Contact No"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <!-- <label class="text-sm" for="">Select Date</label> -->
+                        <div class="gap-2 items-center border p-2 my-2 errorEmailAddress bg-searchBoxLightBlue rounded d-flex"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <img src="/img/dateIcon.svg">
+                            <input type="date" id="emailAddress" placeholder="Select Date"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+
+                        <!-- <label class="text-sm" for="">Select Time</label> -->
+                        <div class="gap-2 items-center border p-2 my-2 errorEmailAddress bg-searchBoxLightBlue rounded d-flex"
+                            onclick="removeBorder('.errorEmailAddress')">
+                            <img src="/img/watchIcon.svg">
+                            <input type="time" id="emailAddress" placeholder="Select Time"
+                                class="border-0 w-100 outlineNone bg-searchBoxLightBlue">
+                        </div>
+                        <p class="text-lightBlack fw-400 fs-14">Our Technical Team will send you a Demo Meeting Link</p>
+
+
+                        <button type="button" class="p-2 w-100 my-2 border-0 text-white bg-black rounded"
+                            onclick="contact()">Schedule Demo</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
